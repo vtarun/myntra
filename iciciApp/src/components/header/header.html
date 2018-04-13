@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title class="ion-title">{{title}}</ion-title>
+    
+<ion-buttons end>
+  
+    <button ion-button (click)="check('search')" mode="ios">
+      <ion-icon name="search"></ion-icon>
+    </button>
+      <button ion-button (click)="check('notification')" mode="ios">
+        <ion-icon name="notifications"></ion-icon>
+      </button>
+      <button ion-button (click)="check('bookmark')" mode="ios">
+      <ion-icon name="bookmark"></ion-icon>
+    </button>
+    <button ion-button (click)="check('cart')" mode="ios">
+        <ion-icon name="cart"></ion-icon>
+      </button>
+    </ion-buttons>
+   
+  </ion-navbar>
+</ion-header>
